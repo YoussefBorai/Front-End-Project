@@ -1,0 +1,236 @@
+.maincontent
+{
+
+    margin-top: 20px;
+    margin-left: 5px;
+    display: inline-flex;
+    height: 3500px;
+    width: 2350px;
+    margin-bottom: 10px;
+    
+}
+.barcontent
+{
+    padding-top: 0px;
+    margin:5px;
+    margin-left: 10px;
+    width: 2250px;
+    display:block;
+}
+.firstone
+{
+   display: inline-flex;
+   height: 650px;
+   margin-bottom: 5px;
+}
+    
+
+.Sidenav
+{
+    margin-left: 5px;
+    line-height: 50px;
+    border: 1px solid white;
+    height: 646px;
+    width: 200px;
+    padding:5x;
+    display: block;
+    background-color: black;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h1
+{
+    text-align: center;
+    font-weight: bold;
+    font-family: serif;
+    padding: 10px;
+    padding-right: 12px;
+    color: white;
+    text-shadow: 2px 0 10px cyan;
+    border: 1px solid white;
+    font-size: 45px;
+    background-color: black;
+    margin-top: 0px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+}
+.elements 
+{
+   margin:10px;
+   height: 518px;
+   display: block;
+}
+.elements ul
+{
+    margin:0px;
+    height:500px; 
+    list-style-position: inside;
+}
+.elements ul li
+{
+    margin: 5px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+.elements ul li 
+{
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 0 15px cyan;
+    font-size: 23px;
+    font-family: serif;
+}
+.Def-c
+{
+    margin: 10px;
+    margin-top: 0px;
+    margin-right: 0px;
+    width: 2065px;
+    border: 2px solid white;
+    border-radius: 20px;
+    height:640px;
+    
+}
+.shape
+{
+   height: 570px;
+   width:1800px;
+   display: inline-flex;
+}
+.ordered
+{
+    margin:5px;
+    width: 900px;
+    height: 550px;
+}
+.video
+{
+    display: block;
+    margin:5px;
+    margin-left: 65px;
+    width: 1100px;
+    height: 550px;
+    
+}
+h3
+{
+    color:white;
+    text-align: center;
+    font-size: 25px;
+    margin:15px;
+    font-family:cursive;
+    text-shadow: 2px 0 12px cyan;
+}
+.video1
+{
+    width: 800px;
+    height: 450px;
+    border: 5px solid wheat;
+    margin-left: 100px;;
+}
+
+h2
+{
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 50px;
+    padding-top: 10px;
+    padding-right: 15px;
+    font-size: 28px;
+    font-family: serif;
+    text-shadow: 3px 0 10px cyan;
+}
+ol
+{
+    list-style-position: inside;
+    color:white;
+    width: 700px;
+}
+ol li
+{
+    padding: 19px;
+    font-size: 25px;
+    text-shadow: 2px 0 10px cyan;
+    font-family: serif;
+}
+ol li ul li
+{
+    padding: 23px;
+}
+ol li ul li a
+{
+    text-decoration: underline;
+    text-shadow: 0 0 10px white;
+}
+
+.sec-one
+{
+    margin-bottom: 5px;
+    border:1px solid white;
+    border-radius: 20px;
+    height: 750px;
+    margin-right: 5px;
+    margin-left: 6px;
+    width: 2275px;
+
+}
+.sec-one1
+{
+    margin-bottom: 5px;
+    border:1px solid white;
+    border-radius: 20px;
+    height: 1300px;
+    margin-right: 5px;
+    margin-left: 6px;
+    width: 2275px;
+
+}
+
+.limit
+{
+   margin: 2px;
+   margin-left: 20px;
+   height: 660px;
+   width:2230px;
+   display: inline-flex;
+    
+}
+.shape2
+{
+    margin: 4px;
+    height: 630px;
+    display: inline-flex;
+}
+.ordered2
+{
+    margin:5px;
+    margin-right: 30px;
+    width: 680px;
+    height: 520px;
+}
+.image2
+{
+    margin-left: 80px;
+    margin-top: 40px;    
+}
+.image2 img
+{
+    border-radius: 20px;
+    height: 570px;
+}
+.video5
+{
+    margin: 5px;
+    display: block;
+    text-align: center;
+    width: 1400px;
+    height: 1200px;
+}

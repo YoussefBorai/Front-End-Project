@@ -1,0 +1,187 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>front page</title>
+    <link rel="stylesheet"  type="text/css" href="resgster_css.css">
+    <link rel = "stylesheet" href = "main.css">
+  
+    </head>
+  
+<body>
+    
+    
+    <div class = "menu-bar">
+<ul>
+   <li><a href = "index.html">Home</a></li>
+   <li><a href = "#">Language</a>
+     <div class = "Lang-submenu">
+         <ul>
+            <li><a href "#">C++</a></li>
+            <li><a href "#">Javascript</a></li>
+            <li><a href "#">html</a></li>
+            <li><a href "#">css</a></li>
+         </ul>
+     </div>     
+    </li>
+    
+   <li><a href = "#">Fields</a>
+       
+     <div class = "Field-submenu">
+         <ul>
+            <li><a href "#">Games</a></li>
+            <li><a href "#">web</a></li>
+            <li><a href "#">SW-Eng</a></li>
+            <li><a href "#">mobile</a></li>
+         </ul>
+     </div>
+   </li>
+    
+   <li><a href = "#">Advices</a></li>
+   <li><a href = "register.html">Register</a></li>
+   <li><a href = "log in.html">Login</a></li>
+    
+</ul>  
+</div> 
+    
+    
+    <div class="warpper fl">
+        <div class="main">
+            <div class="head_of_form">
+<p>
+Student Registration Form</p>
+</div> 
+<div class="form fl" >
+    
+                <form method="POST" onSubmit="return validateForm()" id="form" action = "index.html">
+                    <p class="text">
+FIRST NAME :</p>
+<p>
+<input type="text" name="fname" placeholder="First Name" class="name-inp" pattern="[A-Za-z]+$" title="first name couldnt contain spaces or any special char" required></p>
+<p class="text">
+LAST NAME :</p>
+<p>
+<input type="text" name="lname" placeholder="Last Name" class="name-inp" pattern="[A-Za-z]+$" title="last name couldnt contain spaces or any special char" required>
+                    </p>
+                    <p class="text">
+ID :</p>
+<p>
+<input type="text" name="id" placeholder=" #15445" class="id" pattern="[0-9]{11}" title="id must be 11 numbers and contain only numbers" required>
+                    </p>
+                    <p class="text">
+EMAIL :</p>
+<p>
+<input type="email" name="email" placeholder="deafualt@cis.com" class="email" pattern="[A-Za-z0-9_]+@[A-Za-z0-9.]+\.com" title="your email shuold be like deafult@cis.com" required></p>
+<p class="text">
+PASSWORD :</p>
+<p>
+<input type="password" name="pass" placeholder="Password" class="pass" pattern="[A-Za-z0-9]{6,12}" title="atlest it should be at length 6 " id="pass1" required>
+                        <input type="password" name="pass" placeholder="Conform Password" class="pass"   id="pass2" required>
+    <script type="text/javascript"\>
+        function validateForm() 
+        {
+           var valid=true;
+            var pass1=document.getElementById("pass1")
+              var pass2=document.getElementById("pass2")
+               if(pass2.value!=pass1.value)
+                   {
+                    valid=false;
+                       pass2.focus();
+                       pass2.style.backgroundColor="#ff0000";
+                   }
+            
+            return valid;
+        
+        }
+
+
+    </script>
+                    </p>
+                    <p class="text">
+ Birth of date :  </p>
+    <p class="birth_of_date" >
+                   Year: <select name="year" class="year">
+         <option value="1996">1996</option>
+         <option value="1997">1997</option>
+         <option value="1998">1998</option>
+         <option value="1999">1999</option>
+         <option value="2000">2000</option>
+        <option value="2001">2001</option>
+        <option value="2002">2002</option>
+        <option value="2003">2003</option>
+        <option value="2004">2004</option>
+        </select>                
+        Month : <select name="mounths" class="mounths">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        </select>
+        Day : <select name="day" class="day">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+        <option value="16">16</option>
+        <option value="17">17</option>
+        <option value="18">18</option>
+        <option value="19">19</option>
+        <option value="20">20</option>
+        <option value="21">21</option>
+        <option value="22">22</option>
+        <option value="23">23</option>
+        <option value="24">24</option>
+         <option value="25">25</option>
+        <option value="26">26</option>
+        <option value="27">27</option>
+        <option value="28">28</option>
+        <option value="29">29</option>
+        <option value="30">30</option>
+         <option value="31">31</option>
+        </select>
+               
+    </p>
+    <p class="text">
+graduation year :  </p>
+    <p>
+    <select name="grad_year" class="grad_year" >
+        <option value="2021">2021</option>
+        <option value="2022">2022</option>
+        <option value="2023">2023</option>
+        <option value="2024">2024</option>
+        </select>
+               
+    </p>
+
+    
+<p class="gender">
+<span class="gen" >Gender</span>
+                        <input type="radio" name="reading" value=0 required /> male 
+                        <input type="radio" name="reading" value=1  /> female
+                    </p>
+<p>
+    <button type="submit" class ="sub">register</button>
+</form>
+</div>
+</div>
+</div>
+</body>
+</html>

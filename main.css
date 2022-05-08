@@ -1,0 +1,101 @@
+*
+{
+  margin-left: 0px;
+  margin-bottom: 0px;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body
+{
+    background-image: url(home.jpg);
+    background-size:cover;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+.menu-bar
+{
+    margin-bottom: auto;
+    text-align: center;
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    background-color:black;
+    border-radius: 20px;
+}
+.menu-bar ul li
+{
+    width:auto;
+    margin:15px;
+    padding: 12px;
+}
+
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: white;
+    text-shadow: 0 0 10px cyan;
+}
+.menu-bar ul li:hover
+{
+    background-color: dimgrey;
+    border-radius: 10px;
+}
+.Lang-submenu
+{
+    display: none;
+}
+.menu-bar ul li:hover .Lang-submenu
+{
+    display: block;
+    position: absolute;
+    background-color: black;
+    margin-top:12px;
+    margin-left: -25px;
+    border-radius: 22px;
+}
+.menu-bar ul li:hover .Lang-submenu ul
+{
+    display: block;
+    margin: 0px;
+}
+
+ .menu-bar ul li:hover .Lang-submenu ul li
+{
+    width: 100px;
+    padding: 5px;
+    border-bottom: 1px solid cyan;
+    border-radius: 0;
+    text-align: left;
+}
+
+.Field-submenu
+{
+    display: none;
+}
+.menu-bar ul li:hover .Field-submenu
+{
+    display: block;
+    position: absolute;
+    background-color: black;
+    margin-top:12px;
+    margin-left: -20px;
+    border-radius: 21px;
+}
+.menu-bar ul li:hover .Field-submenu ul
+{
+    display: block;
+    margin: 0px;
+}
+.menu-bar ul li:hover .Field-submenu ul li
+{
+    width: 90px;
+    padding: 5px;
+    border-bottom: 1px solid cyan;
+    border-radius: 0;
+    text-align: left;
+}
+

@@ -1,0 +1,262 @@
+.maincontent
+{
+
+    margin-top: 20px;
+    margin-left: 5px;
+    display: inline-flex;
+    height: 1500px;
+    width: 2098px;
+    margin-bottom: 10px;
+    
+}
+.barcontent
+{
+    padding-top: 0px;
+    margin:5px;
+    width: 2080px;
+    display:block;
+}
+.firstone
+{
+   display: inline-flex;
+   height: 650px;
+   margin-bottom: 5px;
+}
+    
+
+.Sidenav
+{
+    margin-left: 5px;
+    line-height: 50px;
+    border: 1px solid white;
+    height: 640px;
+    width: 250px;
+    padding:5x;
+    display: block;
+    background-color: black;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+h1
+{
+    text-align: center;
+    font-weight: bold;
+    font-family: serif;
+    padding: 10px;
+    padding-right: 12px;
+    color: white;
+    text-shadow: 2px 0 10px cyan;
+    border: 1px solid white;
+    font-size: 45px;
+    background-color: black;
+    margin-top: 0px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+}
+.elements 
+{
+   margin:10px;
+   height: 405px;
+   display: block;
+}
+.elements ul
+{
+    margin:0px;
+    height:410px;
+    list-style-image: url("Limage.png"); 
+    list-style-position: inside;
+}
+.elements ul li
+{
+    margin: 5px;
+    padding-bottom: 80px;
+    border-bottom: 1px solid white;
+}
+.elements ul li 
+{
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 0 15px cyan;
+    font-size: 23px;
+    font-family: serif;
+}
+.Cleancode
+{
+    margin: 10px;
+    margin-top: 0px;
+    margin-right: 0px;
+    width: 1812px;
+    border: 2px solid white;
+    border-radius: 20px;
+    height:640px;
+    
+}
+.shape
+{
+   height: 570px;
+   width:1800px;
+   display: inline-flex;
+}
+.ordered
+{
+    margin:5px;
+    width: 900px;
+    height: 550px;
+}
+.video
+{
+    display: block;
+    margin:5px;
+    width: 870px;
+    height: 550px;
+    
+}
+h3
+{
+    color:white;
+    text-align: center;
+    font-size: 25px;
+    margin:15px;
+    font-family:cursive;
+    text-shadow: 2px 0 12px cyan;
+}
+.video1
+{
+    width: 700px;
+    height: 450px;
+    border: 5px solid wheat;
+    margin-left: 100px;;
+}
+
+h2
+{
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin-top: 0px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 50px;
+    padding-top: 10px;
+    padding-right: 15px;
+    font-size: 28px;
+    font-family: serif;
+    text-shadow: 3px 0 10px cyan;
+}
+ol
+{
+    list-style-position: inside;
+    color:white;
+    width: 700px;
+}
+ol li
+{
+    padding: 17px;
+    font-size: 25px;
+    text-shadow: 2px 0 10px cyan;
+    font-family: serif;
+}
+ol li ul li
+{
+    padding: 23px;
+}
+ol li ul li a
+{
+    text-decoration: underline;
+    text-shadow: 3px 0 12px white;
+}
+
+.sec-one
+{
+    margin-bottom: 5px;
+    border:1px solid white;
+    border-radius: 20px;
+    height: 600px;
+    margin-right: 5px;
+    margin-left: 6px;
+
+}
+h4
+{
+    margin-top: 0px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background: black;
+    color:white;
+    text-align: center;
+    font-size: 32px;
+    height:50px;
+    text-shadow: 3px 0 10px cyan;
+    padding-top: 10px;
+    font-family: serif;    
+}
+.limit
+{
+   margin: 2px;
+   height: 538px;
+   width:2058px;
+   display: inline-flex;
+    
+}
+.shape2
+{
+    margin: 4px;
+    height: 535px;
+    display: inline-flex;
+}
+.ordered2
+{
+    margin:5px;
+    margin-right: 30px;
+    width: 680px;
+    height: 520px;
+}
+.image2
+{
+    margin-left: 15px;
+    margin-top: 10px;    
+}
+.image2 img
+{
+    border-radius: 20px;
+    height: 530px;
+}
+.video2
+{
+    width: 900px;
+    margin:2px;
+}
+.third-one
+{
+    margin-bottom: 5px;
+    border:2px solid white;
+    border-radius: 20px;
+    height: 230px;
+    margin-right: 5px;
+    margin-left: 6px;
+}
+.links
+{
+    margin-top: 65px;
+    margin-left: 15px;
+    list-style: inside;
+    color:white;
+    font-size: 25px;
+    text-shadow: 2px 0 10px cyan;
+    width: 2040px;
+    display: inline-flex;
+
+    
+}
+.links li
+{   
+    padding: 0px;
+    padding-left: 200px;
+}
+.links li a
+{ 
+    text-decoration: underline;
+    text-shadow: 0 0 10px white; 
+}

@@ -1,0 +1,47 @@
+.mob
+{
+   width: 40.5%;
+   min-width: 150px;
+   margin-left: 30%;
+}
+.mob >details
+{
+   
+}
+.mob >details >summary
+{
+   cursor: pointer;
+   background: #DFEFFF;
+   margin: 6PX;
+   padding: 8px;
+   border-radius: 10px;
+   font-weight: bold;
+   
+   
+}
+.mob >details >summary:hover
+{
+   background: #6699FF;
+}
+.textmob
+{
+   color: white;
+   background: black;
+   font-style: oblique;
+   text-shadow: 1px 5px 10px black;
+   margin-top: 5px;
+}
+.imgmob
+{
+ float: right;
+ padding: 2px;
+ margin-top: 0.5%;
+}
+.image1
+{
+    width: 700px;
+    text-align: center;
+    padding: 15px;
+    margin-left: 605px;
+    
+}

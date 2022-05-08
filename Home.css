@@ -1,0 +1,199 @@
+
+h2
+{
+    text-align: center;
+    font-weight: bold;
+    font-family: fantasy;
+    padding: 10px;
+    padding-right: 12px;
+    color: white;
+    text-shadow: 2px 0 10px cyan;
+    border: 1px solid white;
+    font-size: 35px;
+    background-color: black;
+    margin-top: 0px;
+}
+.square
+{
+    margin-top: 10px;
+    display: inline-flex;
+    height: 1500px;
+    width: 2098px;
+    margin-bottom: 10px;
+    
+}
+.side-bar
+{
+    margin-top: 30px;
+    margin-left: 10px;
+    line-height: 50px;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
+    height: 1450px;
+    width: 350px;
+    padding:5x;
+}
+.team
+{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 0 10px cyan;
+    padding:
+}
+.team-member
+{
+    padding: 2px;
+    margin: 10px;
+}
+.team-img
+{
+    border-radius: 20px;
+    padding: 3px;
+}
+.team-img img
+{
+    width: 140px;
+    height: 130px;
+    border-radius: 100px;
+    padding-right: 5px;
+}
+
+h3
+{
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    
+}
+
+.section
+{
+    width: 1750px;
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 30px;
+}
+.first
+{
+    padding-right: 40px;
+    padding-top: 0px;
+    width:1663px;
+    display: inline-flex;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    margin-left: 1px;
+    border-radius: 20px;
+}
+.life
+{
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    padding-left: 20px;
+    padding-right: 0px;
+    padding-top: 71px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    text-shadow: 0 0 10px cyan;
+    font-family: cursive;
+}
+.image1
+{
+    width: 550px;
+    height: 250px;
+    margin-left: 20px;
+    border:2px solid white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.second
+{
+    margin: 15px;
+    height: 1103px;
+    display: block;
+    padding: 5px;
+    border: 1px solid white;
+    margin-left: 1px;
+    border-radius: 20px;
+    width: 1663px;
+}
+
+h4
+{
+    margin: 15px;
+    padding 5px;;
+    font-size: 35px;
+    color: white;
+    font-family: monospace;
+    text-shadow: 0 0 10px cyan;
+    text-decoration: underline;
+}
+
+.shape
+{
+    display: inline-flex;
+    margin: 5px;
+    width: 1638px;
+    height: 990px;
+}
+
+.image-div
+{
+    margin: 10px;
+    padding
+}
+.image2
+{
+    float: right;
+    margin-right: 0px;
+    margin-top: 50px;
+    height: 850px;
+    width: 400px;
+}
+
+.homelist
+{
+   width:1200px;
+   margin:10px;
+   padding: 10px;
+   padding-top: 0px;
+   display: block;
+}
+
+.homelist ul
+{
+    list-style-image: url("Limage5.png"); 
+    list-style-position: inside;
+    
+}
+.homelist ul li
+{
+    margin: 20px;
+    padding: 20px;
+    color: azure;
+    font-size: 35px;
+    text-shadow: 0 0 10px cyan;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
